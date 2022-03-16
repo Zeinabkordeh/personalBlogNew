@@ -1,3 +1,5 @@
+@import './webpagestyleSec.css';
+
 body {
     background-color: rgba(187, 186, 186, 0.849);
     font-size: 25px;
@@ -26,7 +28,7 @@ button:hover, a:hover {
     grid-gap: 5px;
     grid-template-areas: 
     "hd hd hd hd hd"
-    "sd sd main main main "
+    "sd main main main main "
     "ft ft ft ft ft ";
     border: 2px solid white ;
     width: 100%;
@@ -37,7 +39,7 @@ button:hover, a:hover {
     height: 60px;
     overflow: hidden;
     justify-content: stretch;
-  }
+}
   
 .topnavbar a {
     float: left;
@@ -47,95 +49,14 @@ button:hover, a:hover {
     text-decoration: none;
     font-size: 28px;
     
-  }
+}
   
 .topnavbar a:hover {
     background-color: #ddd;
     
-  }
+}
   
 .topnavbar a.active {
     background-color: #0b0c0c;
     color: white;
-  }
-.box{
-
-    padding: 10px;
-    border: 1px solid rgb(8, 8, 8);
-    background-color: white;
-    color: white ;
-    
 }
-.one{
-    display: flex;
-    flex-direction: row;
-    grid-area: hd;
-    background-color: rgb(120, 201, 238);
-    flex-wrap: wrap;
-    
-}
-.two{
-    grid-area: sd;
-    background-color: rgb(130, 132, 134);
-    padding: 1px;
-    font-size: 15px;
- }
-.card {
-    width: 140px ;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: auto;
-    text-align: center;
-    font-family: arial;     
-}
-      
-.title {
-        color: rgb(36, 52, 141);
-        font-size: 12px; 
-}
-      
-.three{
-    grid-area: main;
-    color: black;
-    text-align:justify;
-    padding: 45px;
-    font-size: 20px;
-}
-.four{
-    
-    height: 68px;
-    grid-area: ft;
-    background-color: rgb(120, 201, 238);
-    
-}
-@media (min-width: 300px){
-    .content {
-      display: grid;
-      grid-template-areas: 
-      "hd hd hd"
-      "sd main main"
-      "ft ft ft" ;
-    }
-}
-  
-@media (min-width: 600px) and (max-width:900px) {
-    .content {
-        display: grid;
-        grid-template-columns: 300px 300px;
-        grid-template-rows: 200px 400px 50px;
-        grid-template-areas:
-        "hd hd hd hd hd"
-        "sd sd main main main "
-        "ft ft ft ft ft " ;
-    }
-}
-  
-  
-  @media (max-width:901px) {
-    .content {
-        display: grid;
-        grid-template-areas: 
-        "hd hd hd hd hd hd hd"
-        "sd sd sd main main main main"
-        "ft ft ft ft ft ft ft ft" ;
-    }
-  }

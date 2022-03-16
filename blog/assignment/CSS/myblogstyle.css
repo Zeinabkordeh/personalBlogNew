@@ -75,8 +75,11 @@ body {
     margin-top: 20px;
     float:none;
     opacity:0.8;
-    
+  }
 
+  .linkTo {
+    color: rgb(20, 122, 238);
+    font-size: 17px;
   }
   
   @media screen and (max-width: 800px) {
