@@ -1,0 +1,59 @@
+@media only screen and (max-width:599px){
+    /* For mobile phones: */
+    .content {
+        display: grid;
+        grid-template-columns: 20px 130px 120px ;
+        grid-template-rows: 100px 400px 50px;
+        grid-template-areas:
+        "hd hd hd hd"
+        "sd fd main main"
+        "ft ft ft ft" ;
+        border: none;
+         
+    }
+    .box{
+        padding: 0px;
+        justify-content: space-around;
+    }
+    .one{
+        width: 50.5%;
+    }
+    .two{
+        width: 150px;
+        grid-area:sd;
+    }
+    .three{
+        width: 320px;
+        grid-area:main;
+        font-size: 18px;
+    }
+    .four{
+        width: 50.5%;
+    }
+    .text{
+        padding: 10px;
+    }
+   
+}
+  
+@media only screen and (min-width: 600px) and (max-width:1199px){
+    /* For tablets: */
+    .content {
+        display: grid;
+        grid-template-columns: 150px 440px 10px;
+        grid-template-rows: 100px 400px 50px;
+        grid-template-areas:
+        "hd hd hd"
+        "sd main main "
+        "ft ft ft";
+        border: none;
+    }
+}
+  
+  
+@media only screen and (min-width: 1200px) {
+    /* For desktop: */
+    .content {
+     width: 100%;
+    }
+  }

@@ -56,35 +56,3 @@
 .linkedin {
     width: 60px;
 }
-@media (min-width: 300px){
-    .content {
-       display: grid;
-       grid-template-areas: 
-       "hd hd hd"
-       "sd main main"
-       "ft ft ft" ;
-    }
-}
-  
-@media (min-width: 600px) and (max-width:900px) {
-    .content {
-        display: grid;
-        grid-template-columns: 300px 300px;
-        grid-template-rows: 200px 400px 50px;
-        grid-template-areas:
-        "hd hd hd hd hd"
-        "sd sd main main main "
-        "ft ft ft ft ft " ;
-    }
-}
-  
-  
-  @media (max-width:901px) {
-    .content {
-        display: grid;
-        grid-template-areas: 
-        "hd hd hd hd hd hd hd"
-        "sd sd sd main main main main"
-        "ft ft ft ft ft ft ft ft" ;
-    }
-  }

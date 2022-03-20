@@ -1,0 +1,61 @@
+@media only screen and (max-width:599px){
+    /* For mobile phones: */
+    body{ 
+      display: grid;
+      grid-template-columns:90% ;
+      grid-template-rows:auto;
+      grid-template-areas: 
+      "hd hd hd hd hd"
+      "sd sd main main main"
+      "fd fd fd fd fd"
+      "ft ft ft ft ft";
+    } 
+    .image{
+      width: 83%;
+      height: auto;
+      position:relative; 
+     }
+     .header{
+       width: 89%;
+     }
+     .cardSec{
+      margin-top: 2px;
+     }
+     .fakeimg{
+      display: grid;
+      grid-template-columns:400px;
+      grid-gap: 25px;
+      grid-template-areas: 
+      "sd"
+      "main";
+      border: 2px solid white ;
+      background-color: rgb(183, 196, 188);
+      padding: 40px;
+      justify-content: left;
+     }
+   }
+  
+  @media only screen and (min-width: 600px) and (max-width:1199px){
+    /* For tablets: */
+    body {
+      display: grid;
+      grid-template-rows: 250px 1330px 580px 200px ;
+      grid-template-areas: 
+      "hd hd hd hd"
+      "sd gap main main"
+      "ft ft ft ft";
+      justify-items: start;
+    }
+    .image{
+      width: 75%;
+      height: auto;
+      position:relative; 
+     }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    /* For desktop: */
+    body{
+      width: 95%;
+    }
+  }

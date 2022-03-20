@@ -1,4 +1,6 @@
 @import './webpagestyleSec.css';
+@import './webpagestyleTrd.css';
+@import './webpagestyleFrd.css';
 
 body {
     background-color: rgba(187, 186, 186, 0.849);
@@ -21,42 +23,3 @@ button:hover, a:hover {
     opacity: 0.7;
 }
 
-.content {
-    display: grid;
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 100px 400px 50px;
-    grid-gap: 5px;
-    grid-template-areas: 
-    "hd hd hd hd hd"
-    "sd main main main main "
-    "ft ft ft ft ft ";
-    border: 2px solid white ;
-    width: 100%;
-    height:600px ;
-}
-.topnavbar {
-    width: 950px;
-    height: 60px;
-    overflow: hidden;
-    justify-content: stretch;
-}
-  
-.topnavbar a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 28px;
-    
-}
-  
-.topnavbar a:hover {
-    background-color: #ddd;
-    
-}
-  
-.topnavbar a.active {
-    background-color: #0b0c0c;
-    color: white;
-}

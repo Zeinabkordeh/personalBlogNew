@@ -1,0 +1,47 @@
+.fakeimg {
+    display: grid;
+    grid-template-columns: 16.5% 16.5% 16.5% 16.6% 16.6% 16.6%;
+    grid-gap: 5px;
+    grid-template-areas: 
+    "sd sd sd main main main ";
+    border: 2px solid white ;
+    background-color: rgb(183, 196, 188);
+    padding: 35px;
+    justify-content:;
+  }
+  .text {
+    grid-area: main ;
+    padding: 0.01px;
+    text-align: justify;
+    padding-right: 50px;
+    font-size: 20px;
+  }
+  p {
+    margin: 0px;
+  }
+  .image {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.85;
+    grid-area: sd;
+  }
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .cardSec{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
