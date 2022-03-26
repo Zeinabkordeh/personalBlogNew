@@ -11,7 +11,7 @@
       "ft ft ft ft ft";
     } 
     .image{
-      width: 83%;
+      width: 100%;
       height: auto;
       position:relative; 
      }
@@ -32,6 +32,11 @@
       background-color: rgb(183, 196, 188);
       padding: 40px;
       justify-content: left;
+     }
+     .text{
+      font-size: 28px;
+      width: 430px;
+      text-align:justify;
      }
    }
   

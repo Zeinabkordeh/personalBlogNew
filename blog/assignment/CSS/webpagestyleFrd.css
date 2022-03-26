@@ -3,7 +3,7 @@
     .content {
         display: grid;
         grid-template-columns: 20px 130px 120px ;
-        grid-template-rows: 100px 400px 50px;
+        grid-template-rows: 100px 510px 80px;
         grid-template-areas:
         "hd hd hd hd"
         "sd fd main main"
@@ -16,22 +16,26 @@
         justify-content: space-around;
     }
     .one{
-        width: 50.5%;
+        width: 580px;
     }
     .two{
         width: 150px;
         grid-area:sd;
+        height: 500px;
     }
     .three{
-        width: 320px;
+        width: 420px;
         grid-area:main;
-        font-size: 18px;
+        height: 500px;
     }
     .four{
-        width: 50.5%;
+        width: 580px;
+    
     }
     .text{
         padding: 10px;
+        font-size: 25px;
+        width: 400px;
     }
    
 }
