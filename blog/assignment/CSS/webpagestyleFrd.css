@@ -44,13 +44,16 @@
     /* For tablets: */
     .content {
         display: grid;
-        grid-template-columns: 150px 440px 10px;
-        grid-template-rows: 100px 400px 50px;
+        grid-template-columns: 250px 919px 30px;
+        grid-template-rows: 80px 400px 50px;
         grid-template-areas:
         "hd hd hd"
         "sd main main "
         "ft ft ft";
         border: none;
+    }
+    .text{
+        font-size: 30px;
     }
 }
   
